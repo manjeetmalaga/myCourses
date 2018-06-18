@@ -1,0 +1,11 @@
+{
+  "name": "lessons",
+  "version": "1.0.0",
+  "description": "Lessons One By One",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Manjeet Malaga",
+  "license": "ISC"
+}
