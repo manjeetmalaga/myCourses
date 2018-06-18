@@ -2,7 +2,8 @@
 
 const aws = require('aws-sdk');
 const NAMES_TABLE = process.env.NAMES_TABLE;
-const dynamoDBClient = new aws.DynamoDB.DocumentClient(); 
+const dynamoDBClient = new aws.DynamoDB.DocumentClient();
+ 
 
 module.exports.saveName = (event, context, callback) => {
     let response = {
