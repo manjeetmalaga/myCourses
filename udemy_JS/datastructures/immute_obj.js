@@ -195,4 +195,4 @@ function testArrayMapAsync() {
     // }
 }
 
-exports.test = testArrayMapAsync;
+exports.test = test; //testArrayMapAsync;
